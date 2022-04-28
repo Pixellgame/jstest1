@@ -4,3 +4,8 @@ function show_alert() {
     document.getElementById("p1").innerHTML = "Bonjour " + name + " !";
     }
   } 
+
+  function show_alert2() {
+    var name = document.getElementById('myname').value;
+    document.getElementById("p1").innerHTML = "Bonjour " + name + " !";
+  } 
